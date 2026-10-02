@@ -19,7 +19,7 @@ CONFIG_DIR = _CONFIG_DIR
 DEFAULT_RECORDINGS_DIR = os.path.join(_CONFIG_DIR, "recordings")
 
 DEFAULT_CONFIG = {
-    "enable_warp": False,
+    "enable_warp": True,
     "warp_license_key": "",
     "warp_exclude_domains": [
         "strem.fun", "*.strem.fun", "torrentio.strem.fun",
